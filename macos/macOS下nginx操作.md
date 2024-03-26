@@ -9,3 +9,9 @@ vim /opt/homebrew/etc/nginx/nginx.conf
 ```bash
 brew services restart nginx
 ```
+
+查看错误日志
+
+```bash
+tail -f /opt/homebrew/var/log/nginx/error.log
+```
