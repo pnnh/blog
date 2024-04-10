@@ -1,25 +1,28 @@
-描述rc的行为，排查错误
+命令列表
+
+```bash
+# 描述rc的行为，排查错误
 kubectl describe rc nginx  
 
-描述pod的行为，排查错误
+# 描述pod的行为，排查错误
 kubectl describe pod PodName
 
-获取接口ip
+# 获取接口ip
 kubectl get ep 
 
-得到指定命名空间下的pods
+# 得到指定命名空间下的pods
 kubectl get pods --namespace=kube-system
 
-强制删除某一个命名空间内的pods
+# 强制删除某一个命名空间内的pods
 kubectl delete pods coredns-699f8ddd77-6t5g5 --namespace=kube-system  --grace-period=0 —force
 
-查看某一个pods的日志
+# 查看某一个pods的日志
 kubectl logs -f coredns-699f8ddd77-kgfbs --namespace=kube-system
 
-查看某一命名空间下的secrets对象
+# 查看某一命名空间下的secrets对象
 kubectl get secrets -n kube-system
 
-得到scecret对象描述
+# 得到scecret对象描述
 kubectl describe secrets/kubernetes-dashboard-certs -n kube-system
 
 得到副本集
@@ -52,9 +55,9 @@ kubectl get pods --field-selector 'status.phase=Failed' -o name | xargs kubectl 
 kubectl get pods -n kube-system | grep Evicted | awk '{print $1}' | xargs kubectl delete pod -n kube-system
 
 现在我们需要找到新创建的用户的Token
-kubectl -n kube-system describe secret $(kubectl -n kube-system get secret | grep admin-user | awk '{print 
+kubectl -n kube-system describe secret $(kubectl -n kube-system get secret | grep admin-user | awk '{print'
 
-metrics-server用到的语句
+# metrics-server用到的语句
 kubectl create rolebinding -n kube-system kubernetes-metrics-minimal --role=extension-apiserver-authentication-reader --serviceaccount=kube-system:metrics-server
 
 kubectl describe serviceaccount/default -n kube-system
@@ -79,3 +82,7 @@ kubectl exec -ti pod-use-pvc  -n glusterfs -- /bin/bash
 kubectl edit configmap filebeat-inputs -n elastic-system
 
 kubectl get all --all-namespaces -o name|grep ceph
+
+# 删除命名空间
+kubectl delete namespace jenkins
+```
