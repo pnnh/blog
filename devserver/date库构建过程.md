@@ -1,6 +1,7 @@
 安装过程
 
 ```bash
+cd ~/Library
 git clone https://github.com/HowardHinnant/date.git
 cd date
 git checkout v3.0.1

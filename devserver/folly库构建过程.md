@@ -4,6 +4,7 @@
 时间	2024-03-26 16:51:05
 
 ```bash
+cd ~/Library
 git clone https://github.com/facebook/folly.git
 cd folly
 git checkout v2024.03.25.00
