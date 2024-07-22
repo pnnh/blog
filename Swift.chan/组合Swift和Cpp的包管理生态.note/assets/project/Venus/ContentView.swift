@@ -12,7 +12,6 @@ struct ContentView: View {
             Spacer()
             HStack {
                 Spacer()
-
                 Button(action: {
                          httpRequest()
                 }){
