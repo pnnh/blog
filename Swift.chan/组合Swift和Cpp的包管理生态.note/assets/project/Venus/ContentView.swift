@@ -23,8 +23,6 @@ struct ContentView: View {
         }
     }
 }
- 
-
 
 func httpRequest() {
     // 尝试获取并打印IP

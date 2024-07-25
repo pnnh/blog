@@ -1,3 +1,10 @@
+---
+title: 组合Swift和Cpp的包管理生态
+description: 在Swift 5.9版本更新中，官方引入了C++互操作性功能，使得Swift可以直接调用C++代码。这对于那些需要在Swift中使用C++库的开发者来说是一个重大的利好。
+image: assets/cover.png
+tags: Swift, C++, CocoaPods, Swift Package Manager, Vcpkg
+---
+
 在Swift 5.9版本更新中，官方引入了C++互操作性功能，使得Swift可以直接调用C++代码。这对于那些需要在Swift中使用C++库的开发者来说是一个重大的利好。
 
 关于Swift和C++互操作性的详细信息，可以参考官方文档：[Mixing Swift and C++](https://www.swift.org/documentation/cxx-interop/)。
@@ -31,9 +38,11 @@
 首先创建一个xcode项目，这里选择macOS SwiftUI App，命名为`Venus`。之后为`Venus`配置并集成CocoaPods。
 
 选择项目类型为macOS App：
+
 ![选择项目类型](assets/pictures/NewProject.png)
 
 输入项目名称等信息，语言选择Swift，界面类型选择SwiftUI：
+
 ![项目信息](assets/pictures/ProjectOptions.png)
 
 通过在Venus.xcodeproj同目录创建`Podfile`并执行`pod install`安装Alamofire。
@@ -204,7 +213,7 @@ void native::Logger::log(const std::string& message) {
 }
 ```
 
-关于[module.modulemap](https://clang.llvm.org/docs/Modules.html#module-map-language)文件，这是LLVM的模块映射文件，用于描述C++库的模块导出信息。
+关于[module.modulemap](https://clang.llvm.org/docs/Modules.html#module-map-language)文件，这是LLVM的模块映射文件，用于描述C++库的模块导出信息。有了它，Swift才可以方便的调用C++代码。
 
 *module.modulemap*
 ```
@@ -222,6 +231,10 @@ module Native {
 可以看到此时xcode工程中同时包含了Swift和C++两个工程。还包括对CocoaPods和Swift Package Manager包的引用。
 
 ![项目结构](assets/pictures/SwiftLog.png)
+
+其中Venus为通过xcode创建的常规macOS App SwiftUI类型项目，集成了CocoaPods和Swift Package Manager。
+
+而Native为通过CMake创建的C++工程，同时集成了Vcpkg。
 
 
 #### Swift调用C++
