@@ -25,36 +25,35 @@ kubectl get secrets -n kube-system
 # 得到scecret对象描述
 kubectl describe secrets/kubernetes-dashboard-certs -n kube-system
 
-得到副本集
+# 得到副本集
 kubectl get ReplicaSet -n kube-system
 
-查看deployment状态
+# 查看deployment状态
 kubectl rollout status deployment/metrics-server-v0.3.1 -n kube-system
 
+# 查看pod的yaml文件
 kubectl get pods metrics-server-v0.3.1-8f79f7b54-z6j2z -n kube-system -o yaml
 
-创建secrets对象
+# 创建secrets对象
 kubectl create secret generic kubernetes-ca-certs --from-file=ssl -n kube-system
 
-创建configmap
+# 创建configmap
 kubectl create configmap apollo --from-file=apollo
 
-强制删除pods
+# 强制删除pods
 kubectl delete pods acce --grace-period=0 --force
 
-删除所有异常状态的pod
-
+# 删除所有异常状态的pod
 kubectl get pods | grep Evicted | awk '{print $1}' | xargs kubectl delete pod
 kubectl get pods -n istio-system | grep Evicted | awk '{print $1}' | xargs kubectl delete pod  -n istio-system
 
-未测试过的命令
-
+# 未测试过的命令
 kubectl get pods --field-selector 'status.phase=Failed' -o name | xargs kubectl delete
 
-删除指定命名空间下所有异常状态的pod
+# 删除指定命名空间下所有异常状态的pod
 kubectl get pods -n kube-system | grep Evicted | awk '{print $1}' | xargs kubectl delete pod -n kube-system
 
-现在我们需要找到新创建的用户的Token
+# 现在我们需要找到新创建的用户的Token
 kubectl -n kube-system describe secret $(kubectl -n kube-system get secret | grep admin-user | awk '{print'
 
 # metrics-server用到的语句
