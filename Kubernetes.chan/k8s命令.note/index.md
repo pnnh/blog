@@ -17,7 +17,7 @@ kubectl get pods --namespace=kube-system
 kubectl delete pods coredns-699f8ddd77-6t5g5 --namespace=kube-system  --grace-period=0 —force
 
 # 查看某一个pods的日志
-kubectl logs -f coredns-699f8ddd77-kgfbs --namespace=kube-system
+kubectl logs --tail=50 -f coredns-699f8ddd77-kgfbs --namespace=kube-system
 
 # 查看某一命名空间下的secrets对象
 kubectl get secrets -n kube-system

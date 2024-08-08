@@ -1,6 +1,6 @@
 ---
 title: Swift频道
-description: C语言是在70年代初问世的。一九七八年由美国电话电报公司(AT&T)贝尔实验室正式发表了C语言。同时由B.W.Kernighan和D.M.Ritchit合著了著名的“THE C PROGRAMMING LANGUAGE”一书。通常简称为《K&R》，也有人称之为《K&R》标准。但是，在《K&R》中并没有定义一个完整的标准C语
+description: Swift 是一种强大直观的编程语言，适用于所有 Apple 平台。Swift 语法简洁但表现力强，更包含了深受喜爱的现代功能，可轻松上手使用。Swift 代码从设计上保证安全，并能开发出运行快如闪电的软件。
 ---
 
 
