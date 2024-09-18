@@ -1,6 +1,7 @@
 ---
 title: C/C++
 description: 同时使用了qt、tesseract、leptonica和opencv库
+image: cover.jpg
 ---
 
 同时使用了qt、tesseract、leptonica和opencv库

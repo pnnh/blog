@@ -1,3 +1,7 @@
+---
+image: cover.jpg
+---
+
 官方包仓库地址
 https://packages.gentoo.org/
 

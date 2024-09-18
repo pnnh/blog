@@ -1,3 +1,7 @@
+---
+image: cover.webp
+---
+
 出于兴趣学习QT开发框架。刚接触不久，直接学习的QML开发，对QWidgets不了解。
 
 一般通过CMake构建QT项目，CMakeLists文件会这么写：

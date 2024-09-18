@@ -1,3 +1,7 @@
+---
+image: cover.webp
+---
+
 ### 生成ninja构建规则
 
 ```shell

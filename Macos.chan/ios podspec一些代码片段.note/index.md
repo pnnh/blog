@@ -1,3 +1,7 @@
+---
+image: cover.webp
+---
+
 ## 配置引用第三方frameworks
 ```bash
 

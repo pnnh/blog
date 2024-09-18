@@ -1,3 +1,7 @@
+---
+image: cover.jpg
+---
+
 ### ExternalProject用法
 
 ```cmake

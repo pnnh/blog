@@ -1,3 +1,7 @@
+---
+image: cover.jpg
+---
+
 Mac键盘图标与对应快捷按键
 ⌘——Command ()
 

@@ -1,3 +1,7 @@
+---
+image: cover.webp
+---
+
 
 需要在powershell下执行
 

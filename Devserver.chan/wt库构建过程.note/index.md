@@ -1,3 +1,8 @@
+---
+image: cover.jpg
+---
+
+
 wt c++ web framework
 
 https://www.webtoolkit.eu/wt/

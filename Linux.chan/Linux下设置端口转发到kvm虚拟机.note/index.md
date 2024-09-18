@@ -1,3 +1,7 @@
+---
+image: cover.webp
+---
+
 
 ### 命令如下
 

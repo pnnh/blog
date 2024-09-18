@@ -1,3 +1,7 @@
+---
+image: cover.webp
+---
+
 
 ```shell
 # 配置并设置安装目录

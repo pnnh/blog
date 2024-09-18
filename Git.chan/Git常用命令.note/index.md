@@ -1,3 +1,7 @@
+---
+image: cover.jpg
+---
+
 Git常用命令列表
 
 ### 子模块

@@ -1,3 +1,7 @@
+---
+image: cover.webp
+---
+
 ## macOS构建
 
 尝试了使用clang-14和gcc-12来构建，都是通过brew命令安装

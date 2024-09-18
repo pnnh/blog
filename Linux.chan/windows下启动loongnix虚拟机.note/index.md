@@ -1,3 +1,7 @@
+---
+image: cover.webp
+---
+
 ### 下载软件和系统映像
 
 下载QEMU，地址：https://qemu.weilnetz.de/w64/2024/qemu-w64-setup-20240411.exe

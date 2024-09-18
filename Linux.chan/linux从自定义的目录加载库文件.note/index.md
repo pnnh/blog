@@ -1,3 +1,7 @@
+---
+image: cover.webp
+---
+
 您应该添加有关您的发行版的更多详细信息，例如在Ubuntu下，正确的方法是将自定义文件添加到，例如.conf/etc/ld.so.conf.d
 
 sudo gedit /etc/ld.so.conf.d/randomLibs.conf

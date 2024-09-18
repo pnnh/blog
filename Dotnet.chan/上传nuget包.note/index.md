@@ -1,3 +1,7 @@
+---
+image: cover.jpg
+---
+
 # 构建 
 dotnet build --configuration Release  
   

@@ -1,3 +1,7 @@
+---
+image: cover.webp
+---
+
 安装ios-sim工具：npm install -g ios-sim
 
 ios-sim launch app包路径 --devicetypeid iPhone模拟器机型 

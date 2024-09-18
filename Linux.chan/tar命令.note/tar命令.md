@@ -1,3 +1,7 @@
+---
+image: cover.webp
+---
+
 解压.tar.gz文件
 tar -zxvf ×××.tar.gz
 

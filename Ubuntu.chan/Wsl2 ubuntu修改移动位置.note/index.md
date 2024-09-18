@@ -1,3 +1,8 @@
+---
+image: cover.webp
+---
+
+
 wsl --export Ubuntu-20.04 f:\wsl2\ubuntu20.04.tar
 
 wsl --unregister Ubuntu-20.04

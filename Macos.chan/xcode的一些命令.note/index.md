@@ -1,3 +1,7 @@
+---
+image: cover.webp
+---
+
 ```bash
 
 # 查看xcode项目配置

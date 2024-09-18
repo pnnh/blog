@@ -1,3 +1,7 @@
+---
+image: cover.jpg
+---
+
 构建过程
 
 系统	ubuntu 23.10 

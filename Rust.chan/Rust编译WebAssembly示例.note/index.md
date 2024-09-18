@@ -1,3 +1,7 @@
+---
+image: cover.webp
+---
+
 演示通过将Rust编译为WebAssembly、打包为npm包，并通过vite运行示例页面
 首先根据 https://developer.mozilla.org/zh-CN/docs/WebAssembly/Rust_to_wasm 教程实现npm包的构建和运行
 原教程中构建npm包之后是采用webpack dev服务器运行示例页面的，但这种方式在使用vite时无法运行，会报以下错误：

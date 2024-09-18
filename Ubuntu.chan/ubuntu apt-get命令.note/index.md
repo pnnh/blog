@@ -1,3 +1,7 @@
+---
+image: cover.webp
+---
+
 # 查看某一个包的详细版本
 apt-cache madison vim 
 # 更新源

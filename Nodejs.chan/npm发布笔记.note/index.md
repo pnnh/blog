@@ -1,3 +1,7 @@
+---
+image: cover.webp
+---
+
 ``` bash
 # 登录npm
 npm login

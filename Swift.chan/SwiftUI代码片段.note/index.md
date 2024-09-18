@@ -1,3 +1,7 @@
+---
+image: cover.webp
+---
+
 ### SwiftUI嵌入原生视图
 
 ```swift

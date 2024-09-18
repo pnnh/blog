@@ -1,3 +1,7 @@
+---
+image: cover.jpg
+---
+
 尝试在linux下安装aws-sdk-cpp，并用在cmake项目里
 
 但是实际上很不顺利，尝试了vcpkg、xmake、ubuntu自带的apt、以及nixpkgs包管理工具

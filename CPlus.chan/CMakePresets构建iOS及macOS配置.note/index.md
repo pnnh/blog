@@ -1,3 +1,7 @@
+---
+image: cover.webp
+---
+
 
 示例CMakeLists配置如下：
 

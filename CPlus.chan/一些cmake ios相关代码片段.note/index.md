@@ -1,3 +1,7 @@
+---
+image: cover.png
+---
+
 ## 编译ios下的framework
 ```cmake
 cmake_minimum_required(VERSION 3.10)

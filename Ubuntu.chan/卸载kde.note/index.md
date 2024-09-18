@@ -1,3 +1,7 @@
+---
+image: cover.webp
+---
+
 
 ```bash
 sudo apt remove plasma-desktop --autoremove

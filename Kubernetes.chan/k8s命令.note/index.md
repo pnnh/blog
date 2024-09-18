@@ -1,3 +1,7 @@
+---
+image: cover.jpg
+---
+
 命令列表
 
 ```bash

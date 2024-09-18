@@ -1,3 +1,7 @@
+---
+image: cover.webp
+---
+
 查看因OOM被kill掉的进程记录
 grep -i 'killed process' /var/log/messages  
 dmesg | egrep -i 'killed process'

@@ -1,3 +1,7 @@
+---
+image: cover.jpg
+---
+
 安装该辅助工具 https://github.com/dotnet-outdated/dotnet-outdated
 
 ### 升级依赖的nuget包版本

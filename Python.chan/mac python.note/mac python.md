@@ -1,3 +1,7 @@
+---
+image: cover.webp
+---
+
 任何将macOS更新到Monterey 12.3的人都会发现他们突然不再提供Python 2的系统。
 这样做的原因是Apple删除了系统提供的python 2安装（详细信息）。
 因此，解决此问题/解决方案是使用pyenv安装python 2.7（或您需要的任何其他特定版本）。

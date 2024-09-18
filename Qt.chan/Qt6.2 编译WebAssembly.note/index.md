@@ -1,3 +1,7 @@
+---
+image: cover.webp
+---
+
 演示通过cmake将Qt6项目编译为WebAssembly，并加载自定义中文字体
 
 首先在官网注册并下载安装Qt。安装时需要勾选WebAssembly选项。截止目前本文所采用的Qt 6.2版本中，WebAssembly还是作为技术预览版出现，不太适合用于生产环境。

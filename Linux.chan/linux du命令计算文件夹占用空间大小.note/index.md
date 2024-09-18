@@ -1,3 +1,7 @@
+---
+image: cover.jpg
+---
+
 
 
 

@@ -1,3 +1,7 @@
+---
+image: cover.jpg
+---
+
 
 安装过程
 
