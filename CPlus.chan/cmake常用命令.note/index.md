@@ -22,3 +22,10 @@ cmake --build --preset macOS --config Release
 # 安装
 cmake --install output/macos --config Release --prefix install
 ```
+
+### 构建命令
+
+```bash
+# 构建时输出详细的构建参数
+cmake --build --target MTProxima --preset macos . -- VERBOSE=1
+```

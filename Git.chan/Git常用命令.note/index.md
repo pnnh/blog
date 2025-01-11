@@ -37,3 +37,12 @@ git rev-parse HEAD
 git reset --hard
 ```
 
+### 推送命令
+
+```bash
+# 仅推送所有标签
+git push origin --tags
+
+# 推送代码同时推送标签
+git push --follow-tags
+```
