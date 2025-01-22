@@ -1,4 +1,6 @@
 ---
+cls: MTNote
+uid: d53bf30d-a232-4cd5-8b7a-7d1d6ce15a33
 title: C/C++
 description: 同时使用了qt、tesseract、leptonica和opencv库
 image: cover.jpg
