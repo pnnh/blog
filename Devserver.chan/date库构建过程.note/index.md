@@ -1,5 +1,7 @@
 ---
-image: cover.jpg
+cls: MTNote
+uid: 01955eea-bd1d-74ad-9ede-9f14538bb42e
+image: cover.webp
 ---
 
 安装过程

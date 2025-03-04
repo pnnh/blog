@@ -1,5 +1,7 @@
 ---
-image: cover.webp
+cls: MTNote
+uid: 01955eef-43fc-72a5-b19a-898c1881cb51
+image: cover.png
 ---
 
 首先在```pubspec.yaml```中添加```ffigen```依赖：

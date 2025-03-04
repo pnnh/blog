@@ -1,4 +1,6 @@
 ---
+cls: MTNote
+uid: 01955eed-6632-75bc-8726-0551107a7c29
 image: cover.png
 ---
 

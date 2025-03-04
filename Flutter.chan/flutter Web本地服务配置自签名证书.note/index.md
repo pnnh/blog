@@ -1,3 +1,8 @@
+---
+cls: MTNote
+uid: 01955eee-d5e1-7000-a2f5-55d544e92f74
+image: cover.png
+---
 
 
 ## 在web编译时选择渲染引擎

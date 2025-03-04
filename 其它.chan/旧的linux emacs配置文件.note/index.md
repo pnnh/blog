@@ -1,4 +1,6 @@
 ---
+cls: MTNote
+uid: 1eff89d5-60ed-6020-9afb-2e55d0f1296e
 image: cover.jpg
 ---
 

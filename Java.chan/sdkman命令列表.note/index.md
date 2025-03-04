@@ -1,4 +1,7 @@
-
+---
+cls: MTNote
+uid: 01955efd-efd8-7216-b5b7-b658d14183d4
+---
 
 ### sdkman命令列表
 

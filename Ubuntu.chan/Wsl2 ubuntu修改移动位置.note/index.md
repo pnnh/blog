@@ -1,4 +1,6 @@
 ---
+cls: MTNote
+uid: 01955f22-57a6-774c-b3bf-045f437efb5b
 image: cover.webp
 ---
 

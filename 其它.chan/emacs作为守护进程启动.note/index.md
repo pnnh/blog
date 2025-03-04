@@ -1,6 +1,9 @@
 ---
+cls: MTNote
+uid: 1eff89d7-8bd9-68e0-81fc-6506da10cc6d
 image: cover.jpg
 ---
+
 
 emacs支持作为守护进程启动，然后通过emacsclient进行链接，这样的话可以加快编辑器启动速度
 

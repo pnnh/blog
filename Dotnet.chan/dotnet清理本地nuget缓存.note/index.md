@@ -1,4 +1,6 @@
 ---
+cls: MTNote
+uid: 01955eed-eb0f-75bf-abec-1ba51d362815
 image: cover.avif
 ---
 

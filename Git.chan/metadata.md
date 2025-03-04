@@ -1,4 +1,6 @@
 ---
+cls: MTChannel
+uid: 01955ef7-6bd6-76dc-8e69-0e5ded7b51b8
 title: Git
 description: Git（读音为/gɪt/）是一个开源的分布式版本控制系统，可以有效、高速地处理从很小到非常大的项目版本管理。 [1]也是Linus Torvalds为了帮助管理Linux内核开发而开发的一个开放源码的版本控制软件。
 image: assets/cover.webp

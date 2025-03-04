@@ -1,4 +1,6 @@
 ---
+cls: MTNote
+uid: 01955f21-cc90-76cf-a1e6-9b871faa9dd3
 title: 组合Swift和Cpp的包管理生态
 description: 在Swift 5.9版本更新中，官方引入了C++互操作性功能，使得Swift可以直接调用C++代码。这对于那些需要在Swift中使用C++库的开发者来说是一个重大的利好。
 image: assets/cover.png

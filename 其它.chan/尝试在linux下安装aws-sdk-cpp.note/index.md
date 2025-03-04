@@ -1,6 +1,9 @@
 ---
+cls: MTNote
+uid: 1eff89d5-624a-6210-afb4-c6a2925260cb
 image: cover.jpg
 ---
+
 
 尝试在linux下安装aws-sdk-cpp，并用在cmake项目里
 

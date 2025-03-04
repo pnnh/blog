@@ -1,6 +1,9 @@
 ---
+cls: MTNote
+uid: 1eff89d7-8dbc-6f40-959a-9d87260bd0d6
 image: cover.jpg
 ---
+
 
 以下为markfile示例，演示构建过程
 

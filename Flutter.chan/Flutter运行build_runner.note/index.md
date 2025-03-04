@@ -1,6 +1,9 @@
 ---
+cls: MTNote
+uid: 01955eef-192b-76eb-8f67-2c14e70d9991
 image: cover.png
 ---
+
 
 首先在```pubspec.yaml```中添加```build_runner```依赖：
 

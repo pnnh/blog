@@ -1,6 +1,9 @@
 ---
+cls: MTNote
+uid: 01955eee-f9b6-75c9-8eee-ebc94ced91e4
 image: cover.jpg
 ---
+
 
 
 ### 查看当前启用或禁用了哪些平台

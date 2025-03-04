@@ -1,3 +1,8 @@
+---
+cls: MTNote
+uid: 01955eec-d1f6-757f-8afc-cbff95f39990
+image: cover.png
+---
 
 ```bash
 # 构建镜像
