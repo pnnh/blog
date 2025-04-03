@@ -15,5 +15,14 @@ wsl --unregister Ubuntu
 # 设置默认发行版：
 wsl --set-default Ubuntu-18.04
 
+# 关闭 WSL
+wsl --terminate Ubuntu-18.04
+
+# 关闭所有 WSL 发行版
+wsl --shutdown
+
+# 启动 WSL
+wsl
+
 ```
 
