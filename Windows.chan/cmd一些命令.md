@@ -1,6 +1,6 @@
 ---
 cls: MTNote
-uid: fec54329-e34a-15e9-59bf-c73f9a3b8ec7
+uid: 0197ab10-ac6d-74fb-99d6-0b048793be72
 ---
 
 永久设置环境变量
