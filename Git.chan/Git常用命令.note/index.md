@@ -6,9 +6,32 @@ image: cover.jpg
 
 Git常用命令列表
 
+### 基本操作
+
+```shell
+# 克隆代码库
+git clone git@github.com:pnnh/ebase58shared.git
+
+# 克隆代码库到指定目录
+git clone git@github.com:pnnh/ebase58shared.git ebase58shared
+
+# 查看当前状态
+git status
+
+# 查看本地变更
+git diff --cached
+
+```
+
 ### 子模块
 
 ```shell
+# 添加子模块
+git submodule add git@github.com:pnnh/ebase58shared.git pnnh/ebase58shared
+
+# 查看子模块状态
+git submodule status
+
 # 递归同步子模块
 git submodule sync —recursive 
 
