@@ -1,0 +1,2 @@
+使用convert.py将所有markdown文件转换成html文件
+使用copy.py文件将所有生成的html文件拷贝到新的目录
