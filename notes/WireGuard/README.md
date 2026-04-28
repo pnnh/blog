@@ -22,6 +22,11 @@ AllowedIPs = 0.0.0.0/1,128.0.0.0/1,192.168.0.0/16
 
 https://www.notion.so/Grok-_11-2b0b49fd686e49cea0d1d0d466e0bb61#34f3d63b488d810787a8dcffd56949f3
 
+笔记里还在windows添加了以下两条路由表
+route add 192.168.0.49 MASK 255.255.255.255 192.168.0.1 -p
+route add 192.168.0.0 MASK 255.255.255.0 192.168.0.1 -p
+但是当添加第一条精确匹配ip的路由表时我发现macOS无法RDP连接windows了，无论它有没有连接上Wireguard
+第二条路由表没事，但我不确定第二条是否必要
 
  
 docker run --rm -it ghcr.io/wg-easy/wg-easy wgpw "YVjKE0TIis:lo&syGH$"
